@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pai {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(0, 40, 173), rgb(17, 3, 102));
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 178, 248);
+    padding: 20px;
+    width: auto;
+    background-color: rgba(20, 20, 20, 0.507);
+    height: auto;
+}
+
+#resultado,
+#resutado1,
+#resutado2,
+#resutado3,
+#resutado4 {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.input {
+    margin: 15px;
+    width: 40vw;
+    height: 20px;
+    padding: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    width: 40vw;
+    height: 50px;
+    background-color: rgb(224, 11, 189);
+}
+
+.btnMostrar {
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    width: 40vw;
+    height: 50px;
+    background-color: rgb(224, 11, 189);
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.body-card {
+    border: 2px solid rgb(0, 164, 240);
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,
+label,
+h2 {
+    color: white;
+}
+
+h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+.img-card {
+    width: 150px;
+    height: 110px;
+}
